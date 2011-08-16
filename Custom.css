@@ -1,0 +1,182 @@
+
+/**********************************************/
+/*
+/* Monokai for Chrome theme. By Keith Hoffmann - 2011
+/*
+/* Based on http://www.monokai.nl/ TextMate theme
+/* 
+/* Selectors from Darcy Clarke:
+/* http://darcyclarke.me/design/skin-your-chrome-inspector/
+/* Based on Joe Bergantine's Specials Board:
+/* http://joebergantine.com/werkstatt/seestyle
+/*
+/**********************************************/
+
+/**********************************************/
+/* Layout
+/**********************************************/
+#elements-content.source-code {
+	background: #272822 !important;
+	font-size: 12px !important;
+	font-family: 'Droid Sans Mono', sans-serif;
+}
+
+#elements-content .highlight { 
+	color: #49483E !important;
+}
+
+#elements-content .selection {
+	color: #49483E !important;
+}
+
+#elements-content .selection.selected {
+	background-color: rgb(177, 87, 139);
+}
+
+#elements-content .parent {
+
+}
+
+/*.outline-disclosure ol:focus li.parent.expanded.selected::before*/
+#elements-content .outline-disclosure li.parent::before,
+#elements-content .outline-disclosure ol:focus li.parent.expanded.selected::before {
+	background: none !important;
+	content: '' !important;
+}
+
+#elements-content .parent.selected {
+	
+}
+
+#elements-content .parent.selected {
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+}
+
+#elements-content .parent.expanded {
+	
+}
+
+/**********************************************/
+/* HTML
+/**********************************************/
+#elements-content .webkit-html-comment {
+	color: #75715E !important;
+}
+
+#elements-content .webkit-html-doctype {
+	color: rgb(193, 154, 248);
+}
+
+#elements-content .webkit-html-tag {
+	color: white !important;
+}
+
+#elements-content .webkit-html-tag-name {
+	color: rgb(255, 62, 130);
+}
+
+#elements-content .webkit-html-attribute {
+	color: white;
+}
+
+#elements-content .webkit-html-attribute-name {
+	color: rgb(172, 227, 93) !important;
+}
+
+#elements-content .webkit-html-attribute-value {
+	color: rgb(235, 223, 146) !important;
+}
+
+#elements-content .webkit-html-external-link {
+	color: rgb(193, 154, 248) !important;
+} 
+
+#elements-content .webkit-html-resource-link {
+	color: rgb(193, 154, 248);
+}
+
+#elements-content .webkit-html-text-tag {
+	color: rgb(136, 131, 115);
+}
+
+#elements-content .webkit-html-text-node {
+	color: white !important;
+}
+
+#elements-content .webkit-html-css-node {
+	color: #c2c3c3 !important;
+}
+
+#elements-content .webkit-html-js-node {
+	color: #c2c3c3 !important;
+}
+
+
+/**********************************************/
+/* CSS
+/**********************************************/
+
+#elements-content .webkit-css-comment {
+
+}
+
+#elements-content .webkit-css-url {
+
+}
+
+#elements-content .webkit-css-color {
+
+}
+
+#elements-content .webkit-css-selector {
+
+} 
+
+#elements-content .webkit-css-property {
+
+}
+
+#elements-content .webkit-css-number {
+	color: #AE81FF;
+}
+
+#elements-content .webkit-css-keyword {
+	color: rgb(101, 224, 240) !important;
+}
+
+#elements-content .webkit-css-string {
+	color: #E6DB74;
+}
+
+#elements-content .webkit-css-important {
+
+}
+
+
+/**********************************************/
+/* JavaScript
+/**********************************************/
+#elements-content .webkit-javascript-comment {
+	color: rgb(136, 131, 115);
+}
+
+#elements-content .webkit-javascript-keyword {
+	color: rgb(101, 224, 240) !important;
+}
+
+#elements-content .webkit-javascript-ident {
+	color: #d97640 !important;
+}
+
+#elements-content .webkit-javascript-string {
+	color: #E6DB74;
+}
+
+#elements-content .webkit-javascript-number {
+	color: #AE81FF;
+}
+
+#elements-content .webkit-javascript-regexp {
+
+}
